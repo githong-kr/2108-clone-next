@@ -2,7 +2,6 @@ import fetch from 'isomorphic-unfetch';
 
 const name = ({ user, time }) => {
   const userName = user && user.name;
-  console.log('cocoa test');
   return (
     <div>
       {userName}

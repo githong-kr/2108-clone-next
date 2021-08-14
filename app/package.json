@@ -9,10 +9,14 @@
     "start": "next start -p 5001"
   },
   "dependencies": {
+    "date-fns": "^2.23.0",
+    "isomorphic-fetch": "^3.0.0",
     "isomorphic-unfetch": "^3.1.0",
     "next": "^11.0.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "styled-jsx": "^3.4.7"
   },
   "devDependencies": {
     "eslint": "^7.32.0",

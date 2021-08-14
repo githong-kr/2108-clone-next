@@ -2,7 +2,8 @@ import react, { useState } from 'react';
 import Link from 'next/link';
 
 const App = () => {
-  const [userName, setUserName] = useState('');
+  const [userName, setUserName] = useState('githong-kr');
+
   return (
     <div>
       <label>

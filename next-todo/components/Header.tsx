@@ -3,10 +3,12 @@ import styled from 'styled-components';
 import palette from '../styles/palette';
 
 const Container = styled.div`
+  position: sticky;
+  top: 0px;
   display: flex;
   align-items: center;
   width: 100%;
-  height: 52px;
+  height: 10vh;
   padding: 0 12px;
   border-bottom: 1px solid ${palette.gray};
   h1 {
